@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Conversor de Moedas</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="page-title">Conversor <br />de moedas</h1>
+      <p class="page-subtitle">Descubra os valores de Dólar em Real R$</p>
+      <br /><br />
+      <label for="moeda">Insira o valor</label><br />
+      <input type="number" id="valor" size="2" /><br />
+      <button type="submit" onclick="Converter()">Converter</button>
+      <h2 id="valorConvertido"></h2>
+    </div>
+  </body>
+</html>
